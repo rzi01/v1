@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute font */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e6e6; /* Light pink background color */
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .decorations {
+    margin-top: 30px;
+  }
+  
+  .flower, .cat, .heart {
+    width: 100px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff8c94; /* Cute pink button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  button:hover {
+    background-color: #ffabb1; /* Lighter pink on hover */
+  }
+  
+  #response {
+    margin-top: 20px;
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    color: #333; /* Darker text color */
+  }
+  
+  p {
+    font-size: 20px; /* Larger font size for paragraphs */
+    margin-bottom: 20px; /* Add spacing below paragraphs */
+  }
+  
+  /* Valentine's Day themed decorations */
+  .flower {
+    filter: brightness(0.8) saturate(120%) hue-rotate(20deg); /* Adjust flower color */
+  }
+  
+  .cat {
+    filter: brightness(0.8) saturate(120%) hue-rotate(-20deg); /* Adjust cat color */
+  }
+  
+  .heart {
+    filter: brightness(0.8) saturate(120%); /* Adjust heart color */
+  }
+ 
